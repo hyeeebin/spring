@@ -1,0 +1,13 @@
+web.xml 
+: 설정을 위한 설정 파일, 즉 최초로 was(web application server)가 구동될 때 각종 설정을 정의해준다. 여러 xml 파일을 인식하도록 각 파일을 가리킨다. 
+
+servlet-context.xml
+:요청과 관련된 객체를 정의한다! url과 관련된 컨트롤러나 어노테이션, View Resolver 등의 프론트엔드 파일을 설정한다. 
+
+application-context.xml
+:servlet-context.xml과는 반대로 view와 관련되지 않은 객체를 정의한다. 따라서 Service, Repository(DAO), DB등 비즈니스 로직과 관련된 백엔드 파일을 설정
+
+https://velog.io/@seowj0710/Spring-servlet-context.xml-application-context.xml-web.xml-%EC%84%A4%EC%A0%95
+https://datamoney.tistory.com/160#google_vignette
+
+
